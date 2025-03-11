@@ -1,0 +1,32 @@
+main {
+  width: 50vw;
+  height: 60vh;
+  max-width: 1280px;
+  margin-top: 2vh;
+  padding: 2rem;
+  text-align: center;
+  background: #273a49;
+  background: linear-gradient(180deg, #273a49 0%, #131e28 100%);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.game-screen{
+  width: 80%;
+  height: 85%;
+  background: #cce2cd;
+  background: linear-gradient(0deg, #cce2cd 28%, #b9d8ea 100%);
+  align-self: center;
+}
+
+/*                                             FIX BOTTOM SCREEN - more round */
+
+.bottom-screen{
+  display: block;
+  height: 1vh;
+  width: 45vw;
+  margin: auto;
+  border-radius: 0px 0px 100px 100px;
+  background: #131e28;
+}
