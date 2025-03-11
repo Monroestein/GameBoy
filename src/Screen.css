@@ -1,7 +1,6 @@
 main {
-  width: 50vw;
-  height: 60vh;
-  max-width: 1280px;
+  width: 800px;
+  height: 600px;
   margin-top: 2vh;
   padding: 2rem;
   text-align: center;
@@ -13,20 +12,11 @@ main {
 }
 
 .game-screen{
-  width: 80%;
-  height: 85%;
+  width: 650px;
+  height: 500px;
+  max-height: 500px;
+  border-radius: 4px;
   background: #cce2cd;
-  background: linear-gradient(0deg, #cce2cd 28%, #b9d8ea 100%);
+  background: linear-gradient(0deg, #a4bba6 28%, #b4c6d1 100%);
   align-self: center;
-}
-
-/*                                             FIX BOTTOM SCREEN - more round */
-
-.bottom-screen{
-  display: block;
-  height: 1vh;
-  width: 45vw;
-  margin: auto;
-  border-radius: 0px 0px 100px 100px;
-  background: #131e28;
 }
