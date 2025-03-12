@@ -1,6 +1,5 @@
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  /* line-height: 1.5; */
   font-weight: 400;
 
   color-scheme: light dark;
@@ -34,7 +33,6 @@ body {
 h1 {
   font-size: 3.2em;
   margin: 0;
-  /* line-height: 1.1; */
 }
 
 button {
@@ -69,48 +67,67 @@ button:focus-visible {
   }
 }
 
+
+
 /* Banner */
 
 .bottom-banner{
+  margin-top: -10px;
   height: 150px;
-  /* width: 100%; */
   padding: 5px;
   background: #143137;
-  border-radius: 0 0 3px 3px;
+  border-radius: 3px 3px 0 0;
 }
 
-.yellow-border-container{
-  height: 140px;
-  /* width: 98%; */
-  margin: auto;
-  padding: 5px;
-  background: #cba950;
-  border-radius: 15px;
-}
-
-.grey-border-container{
-  height: 130px;
-  /* width: 90%; */
-  margin: auto;
-  background: #294f64;
-  border: 5px solid #d0eae9;
-  border-radius: 10px;
+.bottom-banner-container{
+  margin: 10px 10px;
+  height: 53%;
+  width: 89%;
+  border-radius: 20px;
+  border: 5px solid #d8e6e7;
+  outline: 10px solid #cba950;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 20px;
 }
 
 /* Fight Scene */
 
 .fight-scene{
   height: 350px;
+  color: #35351b;
+}
+
+.pokemon-fighting{
+  margin-left:90px;
+  display: flex;
+  gap: 80px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.pokemon-health{
+  padding: 5px;
+  flex-basis: 290px;
+  background: #f7f8d6;
+  border-radius: 25px 10px 25px 10px;
+  border: 4px outset #979e7898;
+  box-shadow: 0 0 10px 3px #03202e33;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* Front */
 
 .pokemon-front{
   height: 175px;
+  text-align: start;
 }
 
 /* Back */
 
 .pokemon-back{
+  text-align: end;
   height: 175px;
 }

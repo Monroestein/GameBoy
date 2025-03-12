@@ -6,6 +6,7 @@ main {
   text-align: center;
   background: #273a49;
   background: linear-gradient(180deg, #273a49 0%, #131e28 100%);
+  border: 5px inset #b3b9b9;
   border-radius: 20px;
   display: flex;
   justify-content: center;
@@ -18,5 +19,6 @@ main {
   border-radius: 4px;
   background: #cce2cd;
   background: linear-gradient(0deg, #a4bba6 28%, #b4c6d1 100%);
+  border: 5px inset #384a58;
   align-self: center;
 }

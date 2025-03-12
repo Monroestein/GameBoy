@@ -7,12 +7,13 @@ import Banner from "./components/Banner";
 import Fight from "./components/Fight";
 
 const Screen = () => {
+  
   return (
     <>
       <main>
         <div className="game-screen">
           <Fight/>
-          <Banner/>
+          <Banner pokeName="Lickitung" />
         </div>
       </main>
     </>
